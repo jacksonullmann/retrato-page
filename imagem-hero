@@ -1,29 +1,38 @@
+/* 1. Container do banner */
 .hero-wrapper {
   position: relative;
   width: 100%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 2rem auto; /* espaçamento vertical opcional */
 }
 
+/* 2. Imagem principal */
 .hero-img {
   display: block;
   width: 100%;
   height: auto;
 }
 
+/* 3. Logo sobreposta */
 .hero-logo {
   position: absolute;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  width: 300px;
+  width: 50%;
+  max-width: 300px;
+  min-width: 180px;
   height: auto;
 }
 
+/* 4. Ajuste para telas pequenas */
 @media (max-width: 480px) {
+  .hero-wrapper {
+    margin: 1rem auto;
+  }
+
   .hero-logo {
-    width: 200px;
+    width: 40%;
+    min-width: 140px;
   }
 }
-
-
