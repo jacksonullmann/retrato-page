@@ -5,10 +5,25 @@
   margin: 0 auto;
 }
 
-.hero-wrapper img {
+.hero-img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 .hero-logo {
-  /* largura controlada pela tag img */
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: auto;
 }
+
+@media (max-width: 480px) {
+  .hero-logo {
+    width: 200px;
+  }
+}
+
+
