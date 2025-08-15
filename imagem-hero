@@ -1,0 +1,14 @@
+.hero-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-wrapper img {
+  display: block;
+}
+
+.hero-logo {
+  /* largura controlada pela tag img */
+}
