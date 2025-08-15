@@ -1,7 +1,8 @@
-/* NÃO use @import — o font-load já foi feito no HTML */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 #scarcity-banner {
   font-family: 'Open Sans', sans-serif;
-  background: #E72B2B;
+  background: transparent;
   padding: 12px 0;
   text-align: center;
 }
